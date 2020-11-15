@@ -6,6 +6,8 @@ function QueryForm(props) {
 
     return (
         <div>
+            <h2>Spotify Top 100 Recommendations</h2>
+            <h5>Based on Audio Features</h5>
             <Card body border="secondary" style={{ margin: '10px' }}>
                 <Form onSubmit={e => {
                     e.preventDefault(); // prevents the screen from rendering, which loses form data entered
